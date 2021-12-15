@@ -73,17 +73,22 @@ This table shows each of the components, their motivation, and the specific hard
 | Laminate | Optional | ~$0.19/sheet | Make the Turtlebot platforms easier to clean by covering holes | Amazon Basics plastic laminating sheets ([link](https://www.amazon.com/gp/product/B01LZUEX07/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)) |
 | Costume | Optional | ~$37 | Convey robot's purpose to interactants and bystanders | Printed vinyl banner ([link](48HourPrint.com)) |
 
-![iris-photo](https://user-images.githubusercontent.com/11902748/146093309-7ceb6120-1670-44e1-a5e6-541f8546ac18.jpg)
-
-**Fig. 2** *Iris* robot with banner and laptop in the box.
-
 ### 2.i. Possible Add-Ons
 
 #### Costume (Vinyl Banner)
 
+<div align="left">
 Beyond the basic components listed above, we added a few extra components. We printed a vinyl banner and secured it around the robot with zip ties (see Fig. 2). We designed the banner to look like scrubs, with a stethoscope on the front. We printed "Tele-Medicine Robot" in large letters across the back, along with the UCSD Health Systems logo and our lab logo, to make the purpose of the robot clear (Fig. 3).
 
 We ordered the banner from 48HourPrint.com. The banner's dimensions were 38"x22".
+</div>
+
+<div align="right">
+ <p align="center">
+  <img src="https://user-images.githubusercontent.com/11902748/146093309-7ceb6120-1670-44e1-a5e6-541f8546ac18.jpg" />
+  <b>Fig. 2</b> <em>Iris</em> robot with banner and laptop in the box.
+ </p>
+</div>
 
 ![SCRUBS](https://user-images.githubusercontent.com/11902748/146093449-c52c92ec-4e2c-4113-a9e2-37ca8b7f5997.png)
 
