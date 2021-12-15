@@ -2,8 +2,8 @@
 *Iris* is a low-cost open hardware/open software telemedical robot platform, designed to be usable, accessible, robust, and well-situated in the emergency medicine ecosystem.
 
 <p align="center">
- <img src="![The Iris System](https://user-images.githubusercontent.com/11902748/146089012-16246c8c-4e45-4cd3-8771-1f8935f4be47.jpg)" />
- <img src="![logos](https://user-images.githubusercontent.com/11902748/146089237-e87e6488-366e-4980-b200-09360063f84c.JPG)" />
+ <img src="https://user-images.githubusercontent.com/11902748/146089012-16246c8c-4e45-4cd3-8771-1f8935f4be47.jpg" />
+ <img src="https://user-images.githubusercontent.com/11902748/146089237-e87e6488-366e-4980-b200-09360063f84c.JPG" />
 </p>
 
 To learn more, please visit our wiki.
