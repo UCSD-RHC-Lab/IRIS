@@ -77,13 +77,13 @@ This table shows each of the components, their motivation, and the specific hard
 
 #### Costume (Vinyl Banner)
  
-<div style="float: left; width: 66%;">
+<div style="float: left; width: 500px;">
 Beyond the basic components listed above, we added a few extra components. We printed a vinyl banner and secured it around the robot with zip ties (see Fig. 2). We designed the banner to look like scrubs, with a stethoscope on the front. We printed "Tele-Medicine Robot" in large letters across the back, along with the UCSD Health Systems logo and our lab logo, to make the purpose of the robot clear (Fig. 3).
 
 We ordered the banner from 48HourPrint.com. The banner's dimensions were 38"x22".
 </div>
 
-<div style="float:right; width=33%;">
+<div style="float:right; width=200px;">
  <p align="center">
   <img src="https://user-images.githubusercontent.com/11902748/146093309-7ceb6120-1670-44e1-a5e6-541f8546ac18.jpg" />
   <b>Fig. 2</b> <em>Iris</em> robot with banner and laptop in the box.
