@@ -27,7 +27,7 @@ ________________________________________________________________________________
 
 1. Introduction
 2. Basic Components
-    - 2.1. Possible Add-Ons
+    1. Possible Add-Ons
 3. Building the Robot
     1. Build the Robot to the Appropriate Height
     2. Mount the Laptop Box
@@ -70,9 +70,10 @@ This table shows each of the components, their motivation, and the specific hard
 | Costume | Optional | ~$37 | Convey robot's purpose to interactants and bystanders | Printed vinyl banner ([link](48HourPrint.com)) |
 
 ![iris-photo](https://user-images.githubusercontent.com/11902748/146093309-7ceb6120-1670-44e1-a5e6-541f8546ac18.jpg)
+
 **Fig. 2** *Iris* robot with banner and laptop in the box.
 
-### 2.1 Possible Add-Ons
+### 2.i. Possible Add-Ons
 
 #### Costume (Vinyl Banner)
 
@@ -81,6 +82,7 @@ Beyond the basic components listed above, we added a few extra components. We pr
 We ordered the banner from 48HourPrint.com. The banner's dimensions were 38"x22".
 
 ![SCRUBS](https://user-images.githubusercontent.com/11902748/146093449-c52c92ec-4e2c-4113-a9e2-37ca8b7f5997.png)
+
 **Fig. 3** Image for the banner we made for *Iris*. We designed the banner to have a stethoscope and to look similar to the scrubs healthcare workers in our emergency department wear to indicate to patients what the robot's purpose was. We also wrote "Tele-Medicine Robot" in large letters on the back to indicate its purpose.
 
 Furthermore, we attached laminated cards with basic start-up and shut-down procedures and cleaning procedures, so users would have easy access to instructions if they were unfamiliar with the system or forgot how to do something.
@@ -90,7 +92,7 @@ Furthermore, we attached laminated cards with basic start-up and shut-down proce
 We also put the laptop in a plastic resin box lined with foam (except where the laptop vents were located) with cut-outs for the necessary ports. The box also held the portable router and a USB hub we used, since our laptop did not have as many USB ports as we needed. This made the system easier to clean and enabled us to secure the laptop on the robot by mounting the box with bolts.
 
 ![laptop_box](https://user-images.githubusercontent.com/11902748/146093582-63495d26-cb5f-4489-b399-58bb50a5c77c.JPG)
-**Fig. 4** he plastic resin box we used to house the laptop. Laminated cards instructed clinicians where to plug things in.
+**Fig. 4** The plastic resin box we used to house the laptop. Laminated cards instructed clinicians where to plug things in.
 
 #### Laminate for cleaning
 
@@ -107,7 +109,7 @@ While we did not use this in our study, we also mounted a Asus Xtion Pro depth s
 
 These instructions assume you are using the same components we did.
 
-### 3.1. Build the Robot to the Appropriate Height
+### 3.i. Build the Robot to the Appropriate Height
 
 Use extra (possibly laminated) Turtlebot platforms and aluminum rods to build the robot up to the approximate height of beds in your hospital. Note that if you make it too tall, it may become unstable and more likely to tip over. Our highest platform was approximately 30 inches high.
 
@@ -116,7 +118,7 @@ If using laminated platforms, you will need to cut the laminate over the holes i
 ![turtlebot_structure](https://user-images.githubusercontent.com/11902748/146094712-15f0b8b0-1575-4850-9e30-145736ae90c7.JPG)
 **Fig. 6** Use the Turtlebot poles and (laminated) platforms to build up the robot to the appropriate height.
 
-### 3.2. Mount the Laptop Box
+### 3.ii. Mount the Laptop Box
 
 If using a box to hold the laptop, cut holes in the bottom that align with holes in the Turtlebot platform where you will mount it. We recommend mounting it on one of the bottom platforms to make the robot more stable. The more weight there is towards the top of the robot, the easier it will be to tip it over.
 
@@ -127,21 +129,21 @@ Mount the box to the Turtlebot platform with M4 nuts, bolts, and washers. You ma
 ![box_foam](https://user-images.githubusercontent.com/11902748/146101591-0af5b97d-e7b2-4ef1-8696-61cf00bded1f.JPG)
 **Fig. 7** Plastic resin box with foam for padding and holes cut for laptop ports and vents.
 
-### 3.3. Mount the Tablet and Webcam
+### 3.iii. Mount the Tablet and Webcam
 
 Mount the tablet and webcam mounts to the top Turtlebot platform with M4 nuts, bolts, and washers. We mounted the tablet towards the back of the platform and the webcam near the front. Note that the mounting holes may not all align with the holes in the Turtlebot platforms, but you should be able to get at least two to align. Both mounts we used can be adjusted to optimize the angle of the webcam and tablet for different purposes.
 
 ![mounts](https://user-images.githubusercontent.com/11902748/146101943-c0a18e0f-681f-4b1f-ace2-bb57cc9968e1.JPG)
 **Fig. 8** We put the camera mount near the front of the robot and the tablet mount near the back.
 
-### 3.4. Connect the Components
+### 3.iv. Connect the Components
 
 Place the laptop in the box and plug in the Turtlebot base and webcam cords to the appropriate ports. Plug in the portable router (to power it) and place it in the box along with the laptop.
 
 ![connections](https://user-images.githubusercontent.com/11902748/146102058-776944f0-8306-4518-8ed2-e38efd832c40.JPG)
 **Fig. 9** Connect components. We also added labels on the cords to clearly indicate which port each cable should be plugged into.
 
-### 3.5. Add the Banner Costume
+### 3.v. Add the Banner Costume
 
 If using a banner to indicate the robot's purpose, wrap the banner around the Turtlebot platforms and secure it with grommets and zip ties.
 
