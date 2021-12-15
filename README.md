@@ -84,8 +84,9 @@ We ordered the banner from 48HourPrint.com. The banner's dimensions were 38"x22"
 </div>
 
 <div style="float:right; width=200px;">
- <p align="center">
+ <p>
   <img src="https://user-images.githubusercontent.com/11902748/146093309-7ceb6120-1670-44e1-a5e6-541f8546ac18.jpg" />
+  
   <b>Fig. 2</b> <em>Iris</em> robot with banner and laptop in the box.
  </p>
 </div>
