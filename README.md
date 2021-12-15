@@ -193,3 +193,77 @@ If using a banner to indicate the robot's purpose, wrap the banner around the Tu
 ## 4. Current Challenges/Future Improvements
 
 Using a local router that is not connected to the internet makes the connection more secure and helps protect patient privacy. However, the local router signal is somewhat limited. In our ED, the signal still worked about 20-30 feet away from the operator, around a corner and through a door. However, beyond this, the signal deteriorated, and the controls became very laggy, making it difficult to control the robot. We are exploring other options for future deployments, such as integrating the robot into the hospital's existing WiFi infrastructure, to enable Iris to be operated from further away.
+
+
+_____________________________________________________________________________________________________________________________________________________________________
+
+# *Iris* Software Guide
+
+## 1. Getting Started
+
+*Iris* runs on [Ubuntu 18.04](https://old-releases.ubuntu.com/releases/18.04.5/) with [ROS Melodic](http://wiki.ros.org/melodic). It uses Flask with Python for the web interface.
+
+To run *Iris's* interface, download the ROS package in this repo into a [ROS workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace).
+
+Make sure the robot's laptop and control tablet are on the same WiFi network (see [hardware guide](TODO_HARDWARE_GUIDE_HERE)).
+
+## 2. Running the robot's teleoperation and interface programs (manual)
+
+Turn on the robot, and on the robot's laptop, run the following commands:
+
+```
+roscore
+roslaunch turtlebot_bringup minimal.launch
+roslaunch autobot_main main.launch
+rosrun web_teleop app.py
+```
+
+This will start the teleoperation and interface programs.
+
+## 3. Running the robot's teleoperation and interface programs (automatic)
+
+If you would like the robot to automatically start up whenever someone logs into the laptop, you can make a [launch file](http://wiki.ros.org/catkin/Tutorials/create_a_workspace) with the above commands in the web_teleop package in the *Iris* workspace. A launch file is an easy way to run multiple ROS nodes.
+
+At the end of the `.bashrc` file in the home directory, add the following code to source the ROS workspace where the Iris package is and launch the launch file:
+
+```
+source <path_to_ROS_workspace>/Iris_workspace/devel/setup.bash
+roslaunch web_teleop <launch_file_name>
+```
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/11902748/146137291-4734af5c-e940-49a2-a0aa-900d37081366.JPG" />
+</p>
+
+You also need the terminal to come up automatically. To do this, on the robot laptop:
+
+1. Search the applications for "Startup Applications," and click on the Startup Applications option.
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/11902748/146137472-4a5d140c-1ce7-428c-ab80-2aff802461c4.JPG" />
+</p>
+
+2. Click "Add."
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/11902748/146137676-ecd4bc13-36d6-4677-b5cc-1af29d9a5c0a.png" />
+</p>
+
+3. Type "Terminal" in the name field, and type "gnome-terminal" in the command field.
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/11902748/146137858-fce7b28d-b991-4a08-bacb-474c472265a0.JPG" />
+</p>
+
+4. Click "Add." You should see the terminal listed in the "Additional startup programs" list, as shown below.
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/11902748/146138010-11c25379-d4c1-4809-ad41-aea6155a9fbd.JPG" />
+</p>
+
+## 4. Accessing the control interface
+
+To access the interface, open Firefox on the control tablet.
+
+Go to https://0.0.0.0:5002/ 
+
+You should see the interface in the window and be able to control the robot.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/11902748/146138270-46eb01c7-70c9-4625-8c53-e3f0469f64d2.png" />
+</p>
