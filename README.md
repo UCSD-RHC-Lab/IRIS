@@ -44,8 +44,10 @@ ________________________________________________________________________________
 
 We developed *Iris* using low-cost hardware from our lab. We provide the specifications here, though many components can be interchanged with different alternatives. Additionally, the system can be customized for different needs (e.g., adding a light that can be turned on and off for pupillary response tests).
 
-![diy](https://user-images.githubusercontent.com/11902748/146090486-9cc8523a-88a8-4404-a7de-6c6409abf0ac.png)
+<p align=center>
+ <img src="https://user-images.githubusercontent.com/11902748/146090486-9cc8523a-88a8-4404-a7de-6c6409abf0ac.png" />
 **Fig. 1** The basic hardware components of *Iris*, including a two-wheeled mobile robot with a computer, a local router, a tablet, and a wide-angle camera mounted four feet high on the robot.
+<\p>
 
 ## 2. Basic Components
 
