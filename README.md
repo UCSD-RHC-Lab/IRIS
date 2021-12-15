@@ -106,7 +106,7 @@ We also put the laptop in a plastic resin box lined with foam (except where the 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/11902748/146093582-63495d26-cb5f-4489-b399-58bb50a5c77c.JPG" />
 </p>
-<p>
+<p align="center">
  <b>Fig. 4</b> The plastic resin box we used to house the laptop. Laminated cards instructed clinicians where to plug things in.
 </p>
 
@@ -186,7 +186,7 @@ If using a banner to indicate the robot's purpose, wrap the banner around the Tu
 <p align="center">
  <img src="https://user-images.githubusercontent.com/11902748/146102134-f3458de9-0f60-46a8-a422-07e1e6dbd7cf.JPG" />
 </p>
-<p>
+<p align="center">
  <b>Fig. 10</b> We used grommets and zip ties to secure the banner to the robot.
 </p>
 
