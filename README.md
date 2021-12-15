@@ -175,7 +175,7 @@ Place the laptop in the box and plug in the Turtlebot base and webcam cords to t
 <p align="center">
  <img src="https://user-images.githubusercontent.com/11902748/146102058-776944f0-8306-4518-8ed2-e38efd832c40.JPG" />
 </p>
-<p>
+<p align="center">
  <b>Fig. 9</b> Connect components. We also added labels on the cords to clearly indicate which port each cable should be plugged into.
 </p>
 
