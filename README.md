@@ -14,12 +14,14 @@ S. Matsumoto, S. Moharana, N. Devanagondi, L. C. Oyama, and L. Riek. Iris: A Low
 
 Bibtex format:
 
+```
 @inproceedings{matsumoto2021iris,
   title={Iris: A Low-Cost Telemedicine Robot to Support Healthcare Safety and Equity During a Pandemic},
   author={Matsumoto, Sachiko and Moharana, Sanika and Devanagondi, Nimisha and Oyama, Leslie C. and Riek, Laurel D.},
   booktitle={EAI PervasiveHealth},
   year={2021}
 }
+```
 
 === License ===
 
