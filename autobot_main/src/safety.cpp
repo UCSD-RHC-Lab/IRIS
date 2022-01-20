@@ -1,13 +1,3 @@
-/***************************************
- * Filename: safety.cpp
- * Students: Aayush Naik, Rebecca Kreitinger, Daniel Koohmarey
- * HRI Final Project
- * 
- * Description: This module is responsible for providing safety features
- * to the racecar.
- * How to use: see README.md
- *******************************************/
-
 #include <autobot/safety.h>
 
 Safety::Safety(): frame_num_(0) {
