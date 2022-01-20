@@ -1,14 +1,3 @@
-/***************************************
- * Filename: engine.cpp
- * Students: Aayush Naik, Rebecca Kreitinger, Daniel Koohmarey
- * HRI Final Project
- * 
- * Description: This module is responsible for using the command messages
- * to move the robot like a racecar.
- * 
- * How to use: see README.md
- *******************************************/
-
 #include <autobot/engine.h>
 #include <cmath>
 #include <iostream>
