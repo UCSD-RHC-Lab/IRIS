@@ -1,0 +1,6 @@
+<launch>
+  <!-- <param name="scale_linear" value="0.2" type="double"/>
+  <param name="scale_angular" value="1.1" type="double"/> -->
+  <node pkg="autobot_main" type="engine" name="engine"/>
+  <node pkg="autobot_main" name="safety" type="safety"/>
+</launch>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <title>Robot Teleop Interface</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"></link>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+    </head>
+    <body>
+      <div style="overflow: hidden; background-color: LightGray; font-family: verdana; font-weight: bold; text-align: center; padding: 8px; position: absolute; top: 0px; left: 0px; width: 100%;">Telemedicine Robot Teleop Interface</div>
+      <div style="width: 100%; overflow:hidden;">
+        <div style="float: left;">
+        <table>
+          <tr><td><div class="content" style="width: 320px; float: left; padding-top: 30px;">
+	    <img src="{{ url_for('video_feed') }}" style="width: 200px;">
+          </div></td></tr>
+	  <tr><td><div class="content" style="float: left; overflow: hidden; font-family: verdana; font-weight: bold;">
+            <form method='POST' action={{url_for('button_press')}}><input type="submit" name="button" value="Turn off video">
+	    </form>
+          </div></td></tr>
+	</table>
+	</div>
+        <div class="content" style="float: left; font-family: verdana; padding-top: 30px; padding-left: 50px;">
+	  <table>
+            <tr><td><span style="font-family: verdana; font-weight: bold;">Robot Controls</span></td></tr>
+	    <tr><td><table>
+	    <tr><td></td><td><span>FORWARD</span></td><td></td></tr>
+            <tr><td></td><td>
+              <span class="arrow arrow-up" id="up"></span>
+            </td><td></td></tr>
+	    <tr><td><span>TURN LEFT</span></td><td></td><td><span>TURN RIGHT</span></td></tr>
+            <tr><td>
+              <span class="arrow arrow-left curve-left" id="left"><span class="curve"></span></span>
+            </td><td>
+              <div id="stop"><span><br />STOP</span></span>
+	    </td><td>
+              <span class="arrow arrow-right curve-right" id="right"><span class="curve"></span></span>
+	    </td></tr>
+	    <tr><td></td><td><span> </span></td><td></td></tr>
+            <tr><td></td><td>
+              <span class="arrow arrow-down" id="down"></span>
+            </td><td></td></tr>
+	    <tr><td></td><td><span>BACKWARD</span></td><td></td></tr>
+            </table></td></tr>
+	  </table>
+        </div>
+      </div>
+    </body>
+    <script type="text/javascript">
+    </script>
+</html>
